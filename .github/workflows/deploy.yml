@@ -3,31 +3,31 @@ name: Deploy to Heroku
 on:
   workflow_dispatch:
     inputs:
-      HEROKU_APP_NAME:
-        description: "Heroku App name"
+      HEROKU_APP_NAME: bdmes
+        description: "App Name"
         required: true
-      HEROKU_API_KEY:
-        description: "Heroku API key"
+      HEROKU_API_KEY: HRKU-32e53c3a-07e8-40fa-b8b5-0c7685195005
+        description: "Api"
         required: true
       HEROKU_EMAIL:
         description: "Heroku email address"
         required: true
-      HEROKU_TEAM_NAME:
+      HEROKU_TEAM_NAME: suproboiragi1@gmail.com
         description: "Heroku Team Name"
         required: false
-      BOT_TOKEN:
+      BOT_TOKEN: 7678495580:AAHuDKJNl6nIhkKurp4TnLlk6aZG7QmFoAw
         description: "Telegram bot token"
         required: true
-      OWNER_ID:
+      OWNER_ID: 5659668981
         description: "Owner's telegram ID"
         required: true
-      DATABASE_URL:
+      DATABASE_URL: mongodb+srv://suproboiragi2:t4GwmmrWCkUcX3Ui@cluster0.nn4hh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
         description: "Database URL from MongoDB"
         required: true
-      TELEGRAM_API:
+      TELEGRAM_API: 22920744
         description: "Telegram API ID from https://my.telegram.org/"
         required: true
-      TELEGRAM_HASH:
+      TELEGRAM_HASH: 31cb93c017f265e4fa6d0ba91236b826
         description: "Telegram HASH from https://my.telegram.org/"
         required: true
 
