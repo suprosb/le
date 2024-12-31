@@ -5,31 +5,31 @@ on:
     inputs:
       HEROKU_APP_NAME:
         description: "bdmes"
-        required: true
+        required: false
       HEROKU_API_KEY:
         description: "HRKU-32e53c3a-07e8-40fa-b8b5-0c7685195005"
-        required: true
+        required: false
       HEROKU_EMAIL:
         description: "suproboiragi1@gmail.com"
-        required: true
+        required: false
       HEROKU_TEAM_NAME:
         description: "tested-team"
         required: false
       BOT_TOKEN:
         description: "7678495580:AAHuDKJNl6nIhkKurp4TnLlk6aZG7QmFoAw"
-        required: true
+        required: false
       OWNER_ID:
         description: "5659668981"
-        required: true
+        required: false
       DATABASE_URL:
         description: "mongodb+srv://suproboiragi2:t4GwmmrWCkUcX3Ui@cluster0.nn4hh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-        required: true
+        required: false
       TELEGRAM_API:
         description: "22920744"
-        required: true
+        required: false
       TELEGRAM_HASH:
         description: "31cb93c017f265e4fa6d0ba91236b826"
-        required: true
+        required: false
 
 jobs:
   deploy:
